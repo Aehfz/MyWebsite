@@ -1,0 +1,139 @@
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+/* Global */
+
+.container {
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Home-Section */
+
+#navbar {
+  color: #f4f4f4;
+  text-align: center;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 30px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+#showcase {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('/images/header-background.jpg');
+  color: white;
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+#showcase h1 {
+  font-size: 90px;
+  padding-top: 50px;
+  font-family: "Fredoka One", cursive;
+}
+
+#showcase p {
+  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+#showcase hr {
+  width: 650px;
+}
+
+#showcase li {
+  display: inline;
+}
+
+#showcase a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 45px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+/* About-Section */
+
+#about-section {
+  background: #2b2b2b;
+  overflow: hidden;
+  padding: 100px 0px;
+}
+
+#about-section .belah-kanan {
+  float: right;
+  text-align: left;
+  padding-right: 400px;
+}
+
+#about-section .belah-kanan h2,
+h3 {
+  font-size: 22px;
+  color: white;
+}
+
+#about-section .belah-kiri {
+  margin-top: 20px;
+  float: left;
+}
+
+/* Work-Section */
+
+h5{
+    text-align: center;
+    font-size:30px;
+    color: #555555
+}
+
+.container-1 {
+    display:flex;
+    text-align:center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    .box {
+      border:1px solid red;
+      padding:10px;
+      margin:0;
+      display:flex;
+      flex-direction:column;
+      h4, p {
+        margin:0 0 10px 0;
+      }
+      .btn {
+        align-self: flex-end;
+        margin-top: auto;
+      }
+    }
+  }
+  
+  .container-1 .box a{
+      text-decoration: none;
+      background-color:#222222;
+      color: white;
+      padding: 5px 10px;
+  }
