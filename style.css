@@ -110,6 +110,9 @@ h5{
     color: #555555
 }
 
+
+/*Jadi container-1 sebab kat atas dah ada container*/
+
 .container-1 {
     display:flex;
     text-align:center;
